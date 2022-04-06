@@ -74,7 +74,7 @@
   right: 0;
   height: 568px;
   width: 568px;
-  background-color:#2f80ed;
+  background-color: #2f80ed;
   z-index: 1;
 }
 
@@ -125,9 +125,9 @@
 }
 
 .two-columns__span-accent {
-line-height: 34px;
-font-size: 24px;
-font-weight: 700;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: 700;
 }
 
 .digits {
@@ -344,6 +344,8 @@ font-weight: 700;
   list-style: none;
   padding: 0;
   margin: 20px 0 16px;
+  display: flex;
+  flex-direction: column;
 }
 
 .footer__column-link {
