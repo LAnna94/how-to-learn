@@ -44,6 +44,7 @@
 }
 
 .header__subtitle {
+  margin: 0;
   position: absolute;
   bottom: 30px;
   left: 64px;
@@ -326,7 +327,7 @@ font-weight: 700;
   margin: 18px 0;
 }
 
-.footer__column_info {
+.footer__column_content_info {
   display: flex;
   flex-direction: column;
 }
@@ -352,6 +353,11 @@ font-weight: 700;
   color: white;
   text-decoration: none;
   margin: 0;
+}
+
+.footer__column_content_social {
+  display: flex;
+  flex-direction: column;
 }
 
 .footer__social-icon {
