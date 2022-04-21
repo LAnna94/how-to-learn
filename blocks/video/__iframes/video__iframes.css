@@ -3,7 +3,6 @@
   margin: 0 auto;
   list-style: none;
   padding-left: 0;
-  display: flex;
-  position: relative;
-  bottom: -50px;
+  font-size: 0;
+  transform: translateY(50px);
 }
